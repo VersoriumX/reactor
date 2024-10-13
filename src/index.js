@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
+import 'polygon.json';
+import 'starknet_mainnet.json';
 
 ReactDOM.render(
   <React.StrictMode>
